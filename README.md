@@ -1,33 +1,33 @@
-# eslint-config-kyostra
+# eslint-config-kyo
 
-[![npm](https://img.shields.io/npm/v/eslint-config-kyostra.svg)](https://www.npmjs.com/package/eslint-config-kyostra)
-[![npmDl](https://img.shields.io/npm/dt/eslint-config-kyostra.svg)](https://www.npmjs.com/package/eslint-config-kyostra)
-[![build](https://img.shields.io/travis/kyostra/eslint-config-kyostra.svg?style=flat)](https://travis-ci.org/kyostra/eslint-config-kyostra)
-[![license](https://img.shields.io/github/license/kyostra/eslint-config-kyostra.svg)](https://github.com/kyostra/eslint-config-kyostra/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/v/eslint-config-kyo.svg)](https://www.npmjs.com/package/eslint-config-kyo)
+[![npmDl](https://img.shields.io/npm/dt/eslint-config-kyo.svg)](https://www.npmjs.com/package/eslint-config-kyo)
+[![build](https://img.shields.io/travis/kyostra/eslint-config-kyo.svg?style=flat)](https://travis-ci.org/kyostra/eslint-config-kyo)
+[![license](https://img.shields.io/github/license/kyostra/eslint-config-kyo.svg)](https://github.com/kyostra/eslint-config-kyo/blob/master/LICENSE)
 
-[![npmbadge](https://nodei.co/npm/eslint-config-kyostra.png)](https://nodei.co/npm/eslint-config-kyostra/)
+[![npmbadge](https://nodei.co/npm/eslint-config-kyo.png)](https://nodei.co/npm/eslint-config-kyo/)
 
 My ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs.html)
 
 ## Install
 ```
-$ npm install --save-dev eslint-config-kyostra
+$ npm install --save-dev eslint-config-kyo
 ```
 
 ### Updating
 Sometimes when using `npm oudated` then `npm update`, npm doesn't update the config. If this occurs to you, then use this instead:
 
 ```
-$ npm install --save-dev eslint-config-kyostra@latest
+$ npm install --save-dev eslint-config-kyo@latest
 ```
 
 ## Usage
-Once you have installed `eslint-config-kyostra`, you can use it by specifying `kyostra` in the `extends` section of your [ESLint Configuration](https://eslint.org/docs/user-guide/configuring), in your `package.json`:
+Once you have installed `eslint-config-kyo`, you can use it by specifying `kyo` in the `extends` section of your [ESLint Configuration](https://eslint.org/docs/user-guide/configuring), in your `package.json`:
 
 ```json
 {
   "eslintConfig": {
-    "extends": "kyostra",
+    "extends": "kyo",
     "rules": {
       "rule": "off"
     }
@@ -39,7 +39,7 @@ If you use a different file for your [ESLint Configuration](https://eslint.org/d
 
 ```
 {
-	"extends": "kyostra"
+	"extends": "kyo"
 }
 ```
 
@@ -51,7 +51,7 @@ If you are developing with Node.js, please use the following instead:
 ```json
 {
   "eslintConfig": {
-    "extends": "kyostra/node",
+    "extends": "kyo/node",
     "rules": {
       "rule": "off"
     }
@@ -64,7 +64,7 @@ If you are developing for a browser application, set the environment to:
 ```json
 {
   "eslintConfig": {
-    "extends": "kyostra/browser",
+    "extends": "kyo/browser",
     "rules": {
       "rule": "off"
     }
@@ -74,6 +74,6 @@ If you are developing for a browser application, set the environment to:
 
 ## Author
 
-**eslint-config-kyostra** © [Kyostra](https://github.com/kyostra), Released under the [MIT License](https://github.com/kyostra/eslint-config-kyostra/blob/master/LICENSE).
+**eslint-config-kyo** © [Kyostra](https://github.com/kyostra), Released under the [MIT License](https://github.com/kyostra/eslint-config-kyo/blob/master/LICENSE).
 
 Created and maintained by Kyostra.

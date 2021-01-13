@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-kyostra",
+  "name": "eslint-config-kyo",
   "version": "1.0.0",
   "description": "my eslint config",
   "license": "MIT",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kyostra/eslint-config-kyostra.git"
+    "url": "git+https://github.com/kyostra/eslint-config-kyo.git"
   },
   "keywords": [
     "eslint",
@@ -25,9 +25,9 @@
     "node": ">=6"
   },
   "bugs": {
-    "url": "https://github.com/kyostra/eslint-config-kyostra/issues"
+    "url": "https://github.com/kyostra/eslint-config-kyo/issues"
   },
-  "homepage": "https://github.com/kyostra/eslint-config-kyostra#readme",
+  "homepage": "https://github.com/kyostra/eslint-config-kyo#readme",
   "dependencies": {
     "babel-eslint": "^10.1.0",
     "eslint-plugin-node": "^11.1.0"
