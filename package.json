@@ -1,0 +1,53 @@
+{
+  "name": "eslint-config-kyostra",
+  "version": "1.0.0",
+  "description": "my eslint config",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyostra/eslint-config-kyostra.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "kyostra",
+    "node",
+    "browser",
+    "lint",
+    "linter"
+  ],
+  "author": "kyostra",
+  "engines": {
+    "node": ">=6"
+  },
+  "bugs": {
+    "url": "https://github.com/kyostra/eslint-config-kyostra/issues"
+  },
+  "homepage": "https://github.com/kyostra/eslint-config-kyostra#readme",
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint-plugin-node": "^11.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "lint-staged": "^10.5.3"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.17.0",
+    "eslint-plugin-node": ">=11.1.0",
+    "babel-eslint": ">=10.1.0"
+  },
+  "eslintConfig": {
+    "extends": "./node.js"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint *.js",
+      "git add"
+    ]
+  }
+}
